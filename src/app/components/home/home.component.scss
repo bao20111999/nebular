@@ -1,0 +1,93 @@
+.home-title{
+    display:flex;
+    align-items: center;
+    gap: 40px;
+    img{
+        width:40px;
+    }
+    .mt{
+        margin-top:-15px;
+        p{
+            margin-top: -35px;
+        }
+    }
+    i{
+        
+        font-size: 25px;
+    }
+    
+}
+.home-menu{
+    display:grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap:20px;
+    div{
+        padding: 20px;
+    }
+}
+.home-dothi{
+    display:flex;
+    .home-dothi-left{
+        width: 60%;
+    }
+    .home-dothi-right{
+        width: 35%;
+    }
+}
+.menu-sidebar.compacted {
+    display: none;
+}
+.menu-sidebar.expanded {
+    display: block;
+}
+.sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav.active {
+      width: 255px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sidenav a .fa-angle-right{
+    position:fixed;
+    right: 25px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  nb-action{
+    position: fixed;
+    right: 20px;
+    gap: 25px;
+    font-size: 22px;
+  }

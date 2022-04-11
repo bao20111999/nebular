@@ -1,0 +1,25 @@
+// nb-card {
+//     min-width: 10rem;
+//     max-width: 20rem;
+//     margin: 0 auto 2rem;
+//   }
+.bd{
+    border-top: 1px solid black;
+    width:70%;
+    i{
+        position: absolute;
+    margin-top: -35px;
+    right: 13%;
+    padding: 10px;
+    background-color: yellow;
+    color: white;
+    }
+}
+form{
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 20px;
+    .submit{
+        margin-top:20px
+    }
+}
