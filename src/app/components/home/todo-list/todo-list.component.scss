@@ -5,14 +5,15 @@
 //   }
 .bd{
     border-top: 1px solid black;
-    width:70%;
+    width:80%;
+    position: relative;
     i{
         position: absolute;
-    margin-top: -35px;
-    right: 13%;
-    padding: 10px;
-    background-color: yellow;
-    color: white;
+        right: 0;
+        top: -37px;
+        padding: 10px;
+        background-color: yellow;
+        color: white;
     }
 }
 form{

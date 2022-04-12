@@ -42,7 +42,7 @@
 }
 .sidenav {
     height: 100%;
-    width: 100%;
+    width: 120%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -57,12 +57,13 @@
   }
   
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 15px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
     transition: 0.3s;
+    color:white;
   }
   
   .sidenav a:hover {
@@ -75,6 +76,9 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+  }
+  .sidenav a i{
+      margin-right:10px;
   }
   .sidenav a .fa-angle-right{
     position:fixed;
